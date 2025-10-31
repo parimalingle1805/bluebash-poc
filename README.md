@@ -25,8 +25,8 @@ You will need [Node.js](https://nodejs.org/) (v18 or newer) installed on your ma
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <repository-url>
-    cd <repository-folder>
+    git clone "https://github.com/parimalingle1805/bluebash-poc.git"
+    cd bluebash-poc
     ```
 2.  **Install Dependencies:**
     Open your terminal in the project's root folder and run the following command to install all the necessary packages from `package.json`.
