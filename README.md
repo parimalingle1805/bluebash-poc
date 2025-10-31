@@ -1,8 +1,12 @@
-# Micro-Frontend POC for Bluebash
+# # Micro-Frontend POC for Bluebash
 
-This project is a Proof of Concept (POC) demonstrating a micro-frontend architecture using React.
+This project is a Proof of Concept (POC) demonstrating a micro-frontend architecture using React. It was created as a technical assignment for the Frontend Developer position at Bluebash.
 
 The application consists of a main **Host Application** that manages a shared design system and two micro-applications: a **Chat App** and an **Email App**.
+
+## Live Demo
+
+**[>> View the live application here <<](https://bluebash-poc.vercel.app/)**
 
 ## Key Features
 
@@ -19,14 +23,14 @@ The application consists of a main **Host Application** that manages a shared de
 - **Tailwind CSS:** For utility-first styling and responsiveness (installed as a PostCSS plugin).
 - **TypeScript:** For type safety and improved developer experience.
 
-## How to Set Up and Run the Application
+## How to Set Up and Run the Application Locally
 
 You will need [Node.js](https://nodejs.org/) (v18 or newer) installed on your machine.
 
 1.  **Clone the Repository:**
     ```bash
-    git clone "https://github.com/parimalingle1805/bluebash-poc.git"
-    cd bluebash-poc
+    git clone <repository-url>
+    cd <repository-folder>
     ```
 2.  **Install Dependencies:**
     Open your terminal in the project's root folder and run the following command to install all the necessary packages from `package.json`.
@@ -58,6 +62,8 @@ You will need [Node.js](https://nodejs.org/) (v18 or newer) installed on your ma
 - **Decision:** I chose to write test cases in a separate `tests.md` file using Jest and React Testing Library syntax, rather than integrating a full test runner into the project.
 - **Trade-off:** The tests are not executable.
 - **Justification:** This was a pragmatic decision to keep the project's dependencies focused on the core task. It successfully demonstrates my knowledge of what to test, how to write meaningful tests, and my commitment to quality, without burdening the POC with a testing environment. Please see the [tests.md](./tests.md) file for the complete testing plan.
+
+
 
 
 
