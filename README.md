@@ -1,6 +1,6 @@
 # # Micro-Frontend POC for Bluebash
 
-This project is a Proof of Concept (POC) demonstrating a micro-frontend architecture using React. It was created as a technical assignment for the Frontend Developer position at Bluebash.
+This project is a Proof of Concept (POC) demonstrating a micro-frontend architecture using React.
 
 The application consists of a main **Host Application** that manages a shared design system and two micro-applications: a **Chat App** and an **Email App**.
 
